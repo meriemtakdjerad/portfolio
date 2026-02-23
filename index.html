@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meriem Takdjerad — Portfolio</title>
+  <meta name="description" content="Portfolio de Meriem Takdjerad — L3 Informatique (Avignon). Projets: compilateur, web, Java, C/C++." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top">MT</a>
+      <div class="nav-links">
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#formation">Formation</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-btn" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <h1>Meriem Takdjerad</h1>
+        <p class="subtitle">
+          Étudiante en L3 Informatique (Université d’Avignon) — recherche de stage / candidature master
+        </p>
+        <div class="chips">
+          <span class="chip">C / C++</span>
+          <span class="chip">Java</span>
+          <span class="chip">Python</span>
+          <span class="chip">Web (HTML/CSS/JS/PHP)</span>
+          <span class="chip">SQL (PostgreSQL/MySQL)</span>
+          <span class="chip">Linux • Git</span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="#projets">Voir mes projets</a>
+          <a class="btn" href="#contact">Me contacter</a>
+          <!-- Option: mets ton CV dans assets/cv.pdf -->
+          <a class="btn ghost" href="assets/cv.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Profil</h2>
+        <p>
+          Curieuse, organisée et motivée, je souhaite développer mes compétences et contribuer à des projets concrets.
+        </p>
+        <ul class="info">
+          <li><strong>Localisation :</strong> Avignon</li>
+          <li><strong>Email :</strong> <a href="mailto:meriemtakdjerad44@gmail.com">meriemtakdjerad44@gmail.com</a></li>
+          <li><strong>Tél :</strong> <a href="tel:+33745601769">+33 7 45 60 17 69</a></li>
+          <li><strong>LinkedIn :</strong> <a href="#" id="linkedinLink">à renseigner</a></li>
+          <li><strong>GitHub :</strong> <a href="#" id="githubLink">à renseigner</a></li>
+        </ul>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+
+    <section id="apropos" class="section">
+      <h2>À propos</h2>
+      <p>
+        Étudiante en 3ᵉ année de Licence Informatique, je recherche un stage pour renforcer mes compétences
+        et participer à des projets techniques (dev logiciel, web, base de données, etc.).
+      </p>
+      <div class="grid two">
+        <div class="panel">
+          <h3>Centres d’intérêt</h3>
+          <ul>
+            <li>Lecture</li>
+            <li>Voyages</li>
+            <li>Sport</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Langues</h3>
+          <ul>
+            <li>Français</li>
+            <li>Anglais</li>
+            <li>Kabyle</li>
+            <li>Arabe</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section">
+      <h2>Compétences</h2>
+
+      <div class="grid three">
+        <div class="panel">
+          <h3>Langages</h3>
+          <ul>
+            <li>C, C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>R</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Web</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Base de données & outils</h3>
+          <ul>
+            <li>SQL, PostgreSQL, MySQL</li>
+            <li>GitHub, VSCode, Eclipse</li>
+            <li>Linux, Windows</li>
+            <li>TCP, SSH, Shell</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <h2>Projets</h2>
+      <p class="muted">Sélection de réalisations académiques (ajoute des liens GitHub dès que possible).</p>
+
+      <div class="grid two" id="projectsGrid">
+        <!-- Cartes projets générées par JS (plus simple à maintenir) -->
+      </div>
+    </section>
+
+    <section id="formation" class="section">
+      <h2>Formation</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <h3>Licence Informatique — Université d’Avignon</h3>
+            <p class="muted">2023 – 2026 (prévu)</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <h3>Licence Mathématiques (L1 & L2) — UMMTO (Algérie)</h3>
+            <p class="muted">2021 – 2023</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <h3>Baccalauréat — Série Mathématiques</h3>
+            <p class="muted">2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid two">
+        <div class="panel">
+          <h3>Me joindre</h3>
+          <ul class="info">
+            <li><strong>Email :</strong> <a href="mailto:meriemtakdjerad44@gmail.com">meriemtakdjerad44@gmail.com</a></li>
+            <li><strong>Téléphone :</strong> <a href="tel:+33745601769">+33 7 45 60 17 69</a></li>
+            <li><strong>Ville :</strong> Avignon</li>
+          </ul>
+          <p class="muted">Tu peux aussi ajouter un formulaire (Google Form) si tu veux.</p>
+        </div>
+
+        <form class="panel" id="contactForm">
+          <h3>Message rapide (local)</h3>
+          <p class="muted">Ce formulaire affiche un message (il n’envoie pas d’email tant que tu n’as pas de backend).</p>
+
+          <label>
+            Nom
+            <input name="name" type="text" required />
+          </label>
+
+          <label>
+            Email
+            <input name="email" type="email" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Envoyer</button>
+          <p class="muted" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Meriem Takdjerad — Portfolio</p>
+      <a href="#top">Retour en haut ↑</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
