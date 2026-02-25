@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520" fill="none">
+  <defs>
+    <linearGradient id="g" x1="56" y1="56" x2="452" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7d3a6"/>
+      <stop offset="1" stop-color="#e58b4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="520" rx="36" fill="#fff8ee"/>
+  <circle cx="260" cy="194" r="90" fill="url(#g)"/>
+  <path d="M112 438c21-78 79-124 148-124s127 46 148 124" fill="url(#g)"/>
+  <text x="260" y="484" text-anchor="middle" fill="#8b5e34" font-family="Segoe UI, Arial" font-size="28" font-weight="700">Ajoute ta photo</text>
+</svg>
